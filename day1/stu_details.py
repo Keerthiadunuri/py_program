@@ -1,0 +1,10 @@
+stuno=int(input())
+sname=input()
+m=int(input())
+p=int(input())
+c=int(input())
+t=m+p+c
+a=(t/3)
+avg=round(a,2)
+print("stuno   name   total   avg")
+print(stuno ,"   " ,sname ," " ,t, " ", avg)
